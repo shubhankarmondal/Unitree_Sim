@@ -1,6 +1,12 @@
-# External Unitree SDKs
+# External Unitree repos
 unitree_sdk2/
 unitree_sdk2_python/
+
+# Upstream models & examples (keep local, don’t push)
+unitree_robots/
+example/
+simulate/
+simulate_python/
 
 # Virtual environment
 venv/
