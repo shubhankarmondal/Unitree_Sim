@@ -1,20 +1,21 @@
-# Ignore external SDKs and support
-../Unitree_Support/
+# Local environments
+venv/
+*.egg-info/
 
-# Ignore upstream folders (local only)
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Upstream clutter (keep local only, don’t push)
 example/
 simulate/
 simulate_python/
 terrain_tool/
 unitree_robots/
 
-# Python build + cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-venv/
-
-# Editor/OS junk
-.DS_Store
+# Extra
+-R
+readme.md
+readme_zh.md
