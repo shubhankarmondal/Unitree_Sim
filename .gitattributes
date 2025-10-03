@@ -1,0 +1,11 @@
+# Treat all text files as UTF-8
+* text=auto eol=lf
+
+# Python files
+*.py linguist-language=Python
+
+# Ignore virtualenv folders
+venv/ export-ignore
+
+# Ignore cache folders
+__pycache__/ export-ignore

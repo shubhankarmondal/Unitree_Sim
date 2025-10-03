@@ -1,20 +1,13 @@
-# Unitree Simulation Project
+# Setup Instructions
 
-This repository is a skeleton framework for building a Unitree + MuJoCo simulation,
-with modular organization of simulation, control, RL, etc.
+This repo only contains research code.  
+To run simulations you also need Unitree dependencies in `../Unitree_Support/`:
 
-## Project Structure
+1. Clone Unitree SDKs and models into `Unitree_Support/`:
+   git clone https://github.com/unitreerobotics/unitree_sdk2 ../Unitree_Support/unitree_sdk2
+   git clone https://github.com/unitreerobotics/unitree_sdk2_python ../Unitree_Support/unitree_sdk2_python
+   git clone https://github.com/unitreerobotics/unitree_mujoco ../Unitree_Support/unitree_mujoco
 
-- `sim/` — Simulation / environment modules  
-- `controllers/` — PID, MPC, control logic  
-- `agents/` — RL algorithm implementations  
-- `utils/` — Utility modules (logging, config, helpers)  
-- `tests/` — Unit tests, validations  
-
-## Getting Started
-
-1. Clone this repository  
-2. Create environment / install dependencies  
-3. Run minimal simulation script  
-4. Develop control or learning modules  
-
+2. Install Python environment:
+   ./setup_env.sh
+   pip install -e ../Unitree_Support/unitree_sdk2_python
