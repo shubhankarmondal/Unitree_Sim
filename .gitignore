@@ -1,17 +1,14 @@
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# External Unitree SDKs
+unitree_sdk2/
+unitree_sdk2_python/
 
 # Virtual environment
 venv/
 
-# Logs and checkpoints
-logs/
-checkpoints/
+# Python cache
+__pycache__/
+*.pyc
 
 # Build artifacts
-build/
 *.so
 *.o
