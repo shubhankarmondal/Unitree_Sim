@@ -1,20 +1,20 @@
-# External Unitree repos
-unitree_sdk2/
-unitree_sdk2_python/
+# Ignore external SDKs and support
+../Unitree_Support/
 
-# Upstream models & examples (keep local, don’t push)
-unitree_robots/
+# Ignore upstream folders (local only)
 example/
 simulate/
 simulate_python/
+terrain_tool/
+unitree_robots/
 
-# Virtual environment
-venv/
-
-# Python cache
+# Python build + cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
 
-# Build artifacts
-*.so
-*.o
+# Editor/OS junk
+.DS_Store
