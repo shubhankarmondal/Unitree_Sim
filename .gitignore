@@ -1,21 +1,9 @@
-# Local environments
+# Local venv and build artifacts
 venv/
 *.egg-info/
-
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# Upstream clutter (keep local only, don’t push)
-example/
-simulate/
-simulate_python/
-terrain_tool/
-unitree_robots/
-
-# Extra
--R
-readme.md
-readme_zh.md
+# Upstream clutter (moved to Support)
+../Unitree_Support/
